@@ -8,7 +8,7 @@ export default function Home({ children, className }: HomeProps) {
   return (
     <div
       className={twMerge(
-        `bg-white rounded-2xl h-fit max-w-8xl mx-auto relative `,
+        `bg-white rounded-2xl h-fit max-w-[1460px] mx-auto relative `,
         className
       )}
     >
