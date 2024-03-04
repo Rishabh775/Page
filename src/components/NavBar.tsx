@@ -1,7 +1,7 @@
 export default function NavBar() {
   return (
     <div className="w-3/6">
-      <div className="px-14 py-4 flex justify-between items-center">
+      <div className="px-14 py-6 flex justify-between items-center">
         <img src="/Logo i2campus_Header.png" alt="" />
         <div className="flex gap-x-6 font-normal ">
           <a

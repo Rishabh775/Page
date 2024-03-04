@@ -5,7 +5,7 @@ import { IoArrowForward } from "react-icons/io5";
 
 function App() {
   return (
-    <div className=" h-screen">
+    <div className=" h-screen ">
       <div className=" px-10 py-10 ">
         <Home className=" h-screen ">
           <div>
@@ -37,28 +37,19 @@ function App() {
               </div>
             </div>
             <div className="absolute right-16 top-16">
-              <p className="">MANAGEMENT & ORGANIZATION</p>
-              {/* <p className="w-2/6">
-                Simplify administrative tasks to save time and resources. Make
-                informed decisions with robust data analytics tools. Adopt
-                scalable solutions for sustainable institutional growth.
-              </p> */}
               <img src="YourOrg_Unit.png" alt="" />
             </div>
             <div className="absolute top-[29.6rem] right-[38.5rem]">
-              <p>ADMIN & FINANCS TEAM</p>
               <img src="YourTem_Unit.png" alt="" />
             </div>
             <div className="absolute top-[33rem] right-[57.8rem]">
-              <p>TEACHER & STAFFS</p>
               <img src="/Group 73.png" alt="" />
             </div>
             <div className="absolute top-[35rem] right-[74.2rem]">
-              <p> STUDENTS & PARENTS</p>
               <img src="/Your Student Unit.png" alt="" />
             </div>
 
-            <button className="bg-red-700 rounded-xl font-thin py-1 text-white px-5 absolute right-[4.3rem] top-16">
+            <button className="bg-red-700 rounded-xl font-thin py-1 text-white px-5 absolute right-[4.3rem] top-[3.9rem]">
               Contact Us{" "}
             </button>
             <button className="flex items-center gap-x-1 bg-red-700 rounded-xl  py-1 text-white px-3 absolute right-[4.2rem] top-[43.5rem]">

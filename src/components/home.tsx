@@ -6,7 +6,12 @@ interface HomeProps {
 }
 export default function Home({ children, className }: HomeProps) {
   return (
-    <div className={twMerge(`bg-white rounded-xl h-fit w-full `, className)}>
+    <div
+      className={twMerge(
+        `bg-white rounded-xl h-fit w-[1490px] mx-auto relative `,
+        className
+      )}
+    >
       {children}
     </div>
   );
