@@ -7,7 +7,7 @@ function App() {
   return (
     <div className=" h-screen w-full">
       <div className=" px-10 py-10 ">
-        <Home className=" h-[90vh] ">
+        <Home className=" h-[95vh] ">
           <div>
             <NavBar />
             <div className="w-3/6 leading-8 px-14 py-6">
